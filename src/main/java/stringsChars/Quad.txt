@@ -1,0 +1,8 @@
+16	Britt	Crew	Quad	1
+15	Harder	Row	Quad	4
+14	Fast	Wheels	Quad	3
+O	Winnie	Whiner	Quad	4
+O	Win	Must	Quad	5
+15	Mark	Water	Quad	2
+O	Oarswoman	Happy	Quad	1
+16	Bow	Sternly	Quad	3

@@ -1,0 +1,15 @@
+15	Jamie	Cox	Doubles	1
+16	Britt	Crew	Quad	1
+15	Harder	Row	Quad	4
+14	Vini	Botes	Scull	1
+14	Fast	Wheels	Quad	3
+15	Boats	Cantstand	Pair	2
+O	Winnie	Whiner	Quad	4
+O	Ergos	Despise	Eight	7
+16	Worker	Hard	Double	2
+O	Win	Must	Quad	5
+14	Dooing	Howzit	Scull	1
+15	Mark	Water	Quad	2
+O	Oarswoman	Happy	Quad	1
+16	Sail	Rather	Oct	6
+16	Bow	Sternly	Quad	3
