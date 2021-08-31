@@ -5,19 +5,14 @@
  */
 package arrayOfObjects;
 
-import java.io.FileNotFoundException;
-
 /**
  *
  * @author Karinak
  */
 public class FriendUI {
-    
-    public static void main(String[] args) throws FileNotFoundException {
-         FriendArray groupA = new FriendArray();
-         String output = groupA.toString(); 
-         System.out.println(output);
-    
+    public static void main(String[] args) {
+        Friend f = new Friend("jOHN", "2003-09-13");
+        System.out.println(f.getAge()); 
+        System.out.println(f);
     }
-  
 }

@@ -5,7 +5,12 @@
  */
 package arrayOfObjects;
 
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.Scanner;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 /**
  *
@@ -15,11 +20,17 @@ public class Friend {
     
      
     private String name; 
-    private int age; 
+    private Date dob; 
     
-    public Friend(String name, int age){ 
-        this.name = name; 
-        this.age = age; 
+    public Friend(String name, String d){ 
+        try {
+            this.name = name;  
+            SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
+            this.dob = sdf.parse(d);
+        } catch (ParseException ex) {
+            Logger.getLogger(Friend.class.getName()).log(Level.SEVERE, null, ex);
+        }
+        
     }
     
     
@@ -28,7 +39,15 @@ public class Friend {
     }
     
     public int getAge(){ 
-        return age; 
+        Date today = new Date(); 
+        int age = 0; 
+        if(today.getMonth() < this.dob.getMonth() && today.getDate() < this.dob.getDate())
+            age = today.getYear() - dob.getYear() - 1; 
+            else { 
+                    age = today.getYear() - dob.getYear(); 
+                    }
+       
+        return age;
     }
 
 
@@ -36,9 +55,6 @@ public class Friend {
         this.name = name;
     }
 
-    public void setAge(int age) {
-        this.age = age;
-    }
     
     public int compareTo(Friend b){
         return this.name.compareTo(b.getName());
@@ -50,7 +66,7 @@ public class Friend {
     
     @Override
     public String toString() {
-        return name + " " + age;
+        return name + " " + dob.toString();
     }
 
     
