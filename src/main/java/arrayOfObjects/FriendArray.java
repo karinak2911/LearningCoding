@@ -21,18 +21,17 @@ public class FriendArray {
     private int size; 
     
     public FriendArray() { 
-        String filename = "textfiles//friends.txt";
+        String filename = "data//friends.txt";
         try{ 
             File f = new File(filename); 
             Scanner sc = new Scanner(f);
-            String name, line;
-            int age;
+            String name, d, line;
             while(sc.hasNext()){
                 line = sc.nextLine();
                 Scanner sc2 = new Scanner (line).useDelimiter("#");
                 name = sc2.next();
-                age = sc2.nextInt();
-                friends[size] = new Friend (name, age);
+                d = sc2.next();
+                friends[size] = new Friend(name, d);
                 size++;
             } 
         }
@@ -42,8 +41,11 @@ public class FriendArray {
             
             
                
-        }
+    }
     
+    public Friend getFriend(int pos){ 
+        return friends[pos]; 
+    } 
     
     public void sort(){ 
         for (int i = 0 ; i < size - 1; i++){ 
@@ -58,13 +60,13 @@ public class FriendArray {
     }
     
     
-    public Friend search (String name){ 
+    public int search (String name){ 
         for (int i = 0; i < size; i++){ 
             if(name.equalsIgnoreCase(friends[i].getName())){ 
-                return friends[i];
+                return i;
             }
         }
-        return null;
+        return -1;
     }
     
     

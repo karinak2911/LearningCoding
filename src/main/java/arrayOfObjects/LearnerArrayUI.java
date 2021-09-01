@@ -9,10 +9,10 @@ package arrayOfObjects;
  *
  * @author Karinak
  */
-public class FriendUI {
+public class LearnerArrayUI {
     public static void main(String[] args) {
-        Friend f = new Friend("jOHN", "2003-09-13");
-        System.out.println(f.getAge()); 
-        System.out.println(f);
+        LearnerArray math = new LearnerArray();
+        math.
     }
+    
 }
