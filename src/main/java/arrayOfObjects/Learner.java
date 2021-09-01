@@ -12,6 +12,8 @@ import java.util.Scanner;
  * @author Karinak
  */
 public class Learner {
+
+  
     private String fullName; 
     private double term1; 
     private double term2; 
@@ -23,7 +25,9 @@ public class Learner {
         this.term2 = term2;
         this.term3 = term3;
     }
-    
+      public String getFullName() {
+        return fullName;
+    }
     public String getFirstName(){ 
         Scanner sc = new Scanner(this.fullName); 
         String firstName  = ""; 
@@ -85,6 +89,8 @@ public class Learner {
         else return "term 3 "; 
     }
     
-    
+    public int compareTo(Learner b){ 
+         return this.fullName.compareTo(b.getFullName());
+    }
     
 }
