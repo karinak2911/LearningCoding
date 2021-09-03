@@ -12,7 +12,11 @@ package arrayOfObjects;
 public class LearnerArrayUI {
     public static void main(String[] args) {
         LearnerArray math = new LearnerArray();
-        math.
+        math.toString(); 
+        math.getBestmark(); 
+        math.sort();
+        math.toString(); 
+        math.search("Ryan"); 
     }
     
 }

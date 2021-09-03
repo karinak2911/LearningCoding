@@ -93,7 +93,5 @@ public class LearnerArray {
         return "there is no student with that name"; 
         } 
       
-    
-    public 
-    } 
+} 
     
