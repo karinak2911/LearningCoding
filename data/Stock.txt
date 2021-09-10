@@ -1,0 +1,21 @@
+external hard drive
+800.00
+12
+flash drive 1GB
+200.00
+10
+flash drive 2GB
+300.00
+7
+wireless mouse
+150.00
+3
+wireless keyboard
+89.00
+1
+monitor 23in
+3000.00
+2
+mouse pad
+10.00
+4

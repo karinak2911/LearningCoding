@@ -9,14 +9,14 @@ package arrayOfObjects;
  *
  * @author Karinak
  */
-public class LearnerArrayUI {
+public class StockArrayUI {
     public static void main(String[] args) {
-        LearnerArray math = new LearnerArray();
-    
-        System.out.println(math.getBestmark()); 
-        math.sort();
-        System.out.println( math.toString()); 
-        System.out.println(math.search("Ryan")); 
+        StockArray items = new StockArray(); 
+        System.out.println(items.toString());
+        System.out.println(items.search("yui789hjhj"));
+        items.adjustStock("wyoqiwuw", 9);
+        items.adjustStock("wyoqiwuw", -9);
+        
     }
     
 }

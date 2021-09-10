@@ -11,11 +11,11 @@ package arrayOfObjects;
  */
 public class StockItem {
     private String description; 
-    private int costPrice; 
+    private double costPrice; 
     private int numberInStock; 
     private static double markUp = 0.25; 
 
-    public StockItem(String description, int costPrice, int numberInStock) {
+    public StockItem(String description, double costPrice, int numberInStock) {
         this.description = description;
         this.costPrice = costPrice;
         this.numberInStock = numberInStock;
@@ -42,11 +42,11 @@ public class StockItem {
         this.description = description;
     }
 
-    public int getCostPrice() {
+    public double getCostPrice() {
         return costPrice;
     }
 
-    public void setCostPrice(int costPrice) {
+    public void setCostPrice(double costPrice) {
         this.costPrice = costPrice;
     }
 

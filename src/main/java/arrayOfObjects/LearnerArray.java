@@ -21,7 +21,7 @@ public class LearnerArray {
     
     public LearnerArray(){ 
         try {
-            String filename = "data//LearnerMarks.txt";  
+            String filename = "C:\\Users\\Karinak\\Documents\\NetBeansProjects\\LearningCoding\\data\\LearnersMarks.txt";  
             File f = new File(filename);
             Scanner sc = new Scanner(f);
             String fullName; 
@@ -93,5 +93,13 @@ public class LearnerArray {
         return "there is no student with that name"; 
         } 
       
+    public String toString(){ 
+        String output = ""; 
+        for(int i = 0; i < size; i++){ 
+            output+= arr[i].toString() + "\n"; 
+            
+        }
+        return output; 
+    }
 } 
     
