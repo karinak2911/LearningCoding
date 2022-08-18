@@ -1,0 +1,39 @@
+  public RecipeManager(){ 
+    
+    String n, t, ingred, u, rn; 
+    int q = 0;
+    
+        try { 
+            Scanner scFile = new Scanner(new File("data//Recipes.txt"));
+            while(scFile.hasNextLine()){ 
+                Scanner lc = new Scanner(scFile.nextLine()).useDelimiter(";"); 
+                n = lc.next(); 
+                t = lc.next(); 
+                
+                Ingredient iArr [] = new Ingredient[20]; 
+                int size = 0; 
+                
+                while(lc.hasNext()){ 
+                    Scanner ingreSc = new Scanner(lc.next()).useDelimiter(" "); 
+                    
+                    q = ingreSc.nextInt(); 
+                    u = ingreSc.next(); 
+                    rn = ingreSc.nextLine(); 
+                    iArr[size] = new Ingredient(q, u, rn); 
+                    size++; 
+                    
+                    
+                }
+                
+                Ingredient [] tempArr = new Ingredient[size]; 
+                for(int i = 0; i < size; i++){ 
+                    tempArr[i] = iArr[i]; 
+                }
+                rArr[rSize] = new Recipe(n, t, tempArr); 
+                rSize++; 
+           
+            } scFile.close();
+        } catch (FileNotFoundException ex) {
+            System.out.println("file not found");
+        }
+    }

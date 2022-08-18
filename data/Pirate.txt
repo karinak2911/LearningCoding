@@ -1,0 +1,14 @@
+Bart,Big,Crows Nest,Navigation,10,4
+Gertie,Green Eyed,Lower Deck,Prepare food,1,3,hyperchondria
+Sparrow,Jack,Upper Deck,Captain,4,4
+Boris,One Handed,Upper Deck,Swab decks,3,3,scared of heights
+Jones,Davy,Lower deck,Cook food,1,4
+Craig,Capn,Upper deck,Sword fighter,4,4
+Hook,James,Lower deck,Brew grog,1,4
+The Terrible,Yassi,Mid deck,Count cannon balls,2,3,agoraphobic
+Bell,Tinker,Mid deck,Load cannons,2,4,anxious
+Horrible,Hagar,Upper Deck,Swab decks,3,2,arachnophobic
+Leg,One,Mid deck,Test grog,2,3,missing limb
+Stump,Oscar,Upper deck,Sword fighter,3,4
+Parrot,Green,Upper deck,Annoy captain,3,2,anxiety
+John,Long,Upper deck,Sword fighter,3,4,multiple personality disorder

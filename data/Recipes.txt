@@ -1,0 +1,9 @@
+Fudgy brownies;Desert;250 g flour;15 ml bicarbonate of soda;50 ml cocoa powder;330 ml sugar;100 ml milk;130 ml butter
+Savoury mince;Main meal;400 g beef mince1;2 ml salt;40 ml tomato paste;990 ml tomato and onion;10 ml beef stock
+Pork schnitzels;Main meal;250 ml fresh white breadcrumbs;20 ml fresh sage;125 ml Parmesan cheese;80 ml flour;2 large eggs;4 medium pork schnitzels
+Easy brownies;Desert;4 large eggs;250 ml butter;500 ml cocoa powder;500 ml flour;15 ml bicarbonate of soda;250 ml sugar
+Fried bacon and cherries;Starter;250 g bacon;1 box glazed cherries;15 ml flour
+Carbonarra;Main Meal;1 bag pasta;250 g bacon;3 ml salt;200 ml parmesan cheese;3 large eggs
+Buffalo wings;Starter;8 organic chicken wings;75 ml butter;15 ml Tabasco sauce;15 ml flour;15 ml Worcestershire sauce
+Baked chicken;Main Meal;4 medium chicken thighs;120 ml brown onion soup;250 ml mayonnaise
+Parma ham and melon;Starter;1 medium melon;150 g parma ham;1 ml salt;50 ml mayonnaise
