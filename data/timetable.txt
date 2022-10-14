@@ -1,0 +1,37 @@
+2017-03-01,Economics,09:00,3
+2017-03-01,Afrikaans Home Language PI (Reading),14:00,3
+2017-03-02,Physical Sciences PI (Physics),09:00,3
+2017-03-02,Afrikaans First Add Language PI (Reading),14:00,2.5
+2017-03-03,Physical Sciences PII (Chemistry),09:00,3
+2017-03-03,IsiZulu First Add Language PI (Reading),14:00,2.5
+2017-03-06,History PII,09:00,2
+2017-03-06,English Home Language PI (Reading),14:00,3
+2017-03-07,Mathematics PI,09:00,3
+2017-03-07,English First Add Language PI (Reading),14:00,2.5
+2017-03-08,Mathematical Literacy PI,09:00,3
+2017-03-08,Afrikaans Home Language PII (Writing),14:00,3
+2017-03-09,Visual Arts PI,09:00,3
+2017-03-09,Afrikaans First Add Language PII (Writing),14:00,2.5
+2017-03-10,Consumer Studies,09:00,3
+2017-03-10,IsiZulu First Add Language PII (Writing),14:00,2.5
+2017-03-13,Mathematics PII,09:00,3
+2017-03-13,English Home Language PII (Writing),14:00,3
+2017-03-14,Mathematical Literacy PII,09:00,3
+2017-03-14,English First Add Language PII (Writing),14:00,2.5
+2017-03-15,Life Sciences PI,09:00,3
+2017-03-15,Business Studies PII,14:00,2
+2017-03-16,Tourism,09:00,3
+2017-03-16,Geography PII,14:00,1.5
+2017-03-17,Business Studies PI,09:00,2
+2017-03-17,Accounting PII,14:00,2
+2017-03-20,Information Technology PI (Theory),09:00,3
+2017-03-20,History PI,14:00,3
+2017-03-21,Computer Applications Technology PI (Theory),09:00,3
+2017-03-22,Dramatic Arts,09:00,3
+2017-03-23,Engineering Graphics & Design PI,09:00,3
+2017-03-24,Geography PI,09:00,3
+2017-03-27,Accounting PI,09:00,2
+2017-03-28,Computer Applications Technology PII (Practical),09:00,3
+2017-03-29,Engineering Graphics & Design PII,09:00,3
+2017-03-30,Information Technology PII (Practical),09:00,3
+2017-03-31,Life Sciences PII,09:00,2
